@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/adeline/Desktop/cs_lab1/cs_lab1.csproj": {}
+  },
+  "projects": {
+    "/home/adeline/Desktop/cs_lab1/cs_lab1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/adeline/Desktop/cs_lab1/cs_lab1.csproj",
+        "projectName": "cs_lab1",
+        "projectPath": "/home/adeline/Desktop/cs_lab1/cs_lab1.csproj",
+        "packagesPath": "/home/adeline/.nuget/packages/",
+        "outputPath": "/home/adeline/Desktop/cs_lab1/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/adeline/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
