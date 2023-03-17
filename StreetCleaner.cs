@@ -49,39 +49,46 @@ namespace cs_lab1
 
         public void KeyboardValues()
         {
-
             do
             {
                 Console.WriteLine("Enter number of brooms:");
-                Console.ReadLine();
+                numberOfBrooms = Convert.ToInt32(Console.ReadLine());
 
-                if (numberOfBrooms < 0 && numberOfBrooms > 10)
+                if (numberOfBrooms < 0 || numberOfBrooms > 10)
                 {
                     Console.WriteLine("Number of brooms must be positive or cannot be more than 10!");
                 }
 
-            } while (numberOfBrooms >= 10);
+            } while (numberOfBrooms < 0 || numberOfBrooms > 10);
+
 
             Console.WriteLine("Enter degree of wear: ");
-            int degreeOfWearLoop = Convert.ToInt32(Console.ReadLine());
+            int degreeOfWear = Convert.ToInt32(Console.ReadLine());
             do
             {
-                if (degreeOfWearLoop < 0 && degreeOfWearLoop > 5)
+                switch (degreeOfWear)
                 {
-                    Console.WriteLine("Number of degree must be positive or cannot be more than 5!");
+                    case < 0: 
+                        Console.WriteLine("Number of degree must be positive!");
+                        break;
+                    case > 5:
+                        Console.WriteLine("Number of degree cannot be more than 5!");
+                        break;
                 }
 
-            } while (degreeOfWearLoop >= 5);
+            } while (degreeOfWear < 0 || degreeOfWear > 5);
+
 
             do
             {
                 Console.WriteLine("Enter number of street cleaners: ");
-                Console.ReadLine();
-                if (numberOfStreetCleaners < 0 && numberOfStreetCleaners > 10)
+                numberOfStreetCleaners = Convert.ToInt32(Console.ReadLine());
+
+                if (numberOfStreetCleaners < 0 || numberOfStreetCleaners > 10)
                 {
                     Console.WriteLine("Number of street cleaners must be positive or less than 10!");
                 }
-            } while (numberOfStreetCleaners > 10);
+            } while (numberOfStreetCleaners < 0 || numberOfStreetCleaners > 10);
         }
 
         public void RandomValues()
@@ -103,8 +110,18 @@ namespace cs_lab1
 
         public void SumOfWearOfBrooms()
         {
-           //int sumOfWearOfBrooms; 
+           //int sumOfWearOfBrooms = /numberOfBrooms; 
            
+        }
+
+        public static void MostHardworkingStreetCleaner()
+        {
+            
+        }
+
+        public void UpgradeBrooms()
+        {
+
         }
     }
 }

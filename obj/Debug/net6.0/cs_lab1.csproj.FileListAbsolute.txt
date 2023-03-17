@@ -1,0 +1,15 @@
+/home/adeline/Desktop/cs_lab1/bin/Debug/net6.0/cs_lab1
+/home/adeline/Desktop/cs_lab1/bin/Debug/net6.0/cs_lab1.deps.json
+/home/adeline/Desktop/cs_lab1/bin/Debug/net6.0/cs_lab1.runtimeconfig.json
+/home/adeline/Desktop/cs_lab1/bin/Debug/net6.0/cs_lab1.dll
+/home/adeline/Desktop/cs_lab1/bin/Debug/net6.0/ref/cs_lab1.dll
+/home/adeline/Desktop/cs_lab1/bin/Debug/net6.0/cs_lab1.pdb
+/home/adeline/Desktop/cs_lab1/obj/Debug/net6.0/cs_lab1.csproj.AssemblyReference.cache
+/home/adeline/Desktop/cs_lab1/obj/Debug/net6.0/cs_lab1.GeneratedMSBuildEditorConfig.editorconfig
+/home/adeline/Desktop/cs_lab1/obj/Debug/net6.0/cs_lab1.AssemblyInfoInputs.cache
+/home/adeline/Desktop/cs_lab1/obj/Debug/net6.0/cs_lab1.AssemblyInfo.cs
+/home/adeline/Desktop/cs_lab1/obj/Debug/net6.0/cs_lab1.csproj.CoreCompileInputs.cache
+/home/adeline/Desktop/cs_lab1/obj/Debug/net6.0/cs_lab1.dll
+/home/adeline/Desktop/cs_lab1/obj/Debug/net6.0/ref/cs_lab1.dll
+/home/adeline/Desktop/cs_lab1/obj/Debug/net6.0/cs_lab1.pdb
+/home/adeline/Desktop/cs_lab1/obj/Debug/net6.0/cs_lab1.genruntimeconfig.cache
